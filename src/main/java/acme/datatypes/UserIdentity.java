@@ -41,6 +41,7 @@ public class UserIdentity extends DomainDatatype {
 	@NotBlank
 	private String				surname;
 
+	private Phone				phone;
 	@NotBlank
 	@Email
 	private String				email;
