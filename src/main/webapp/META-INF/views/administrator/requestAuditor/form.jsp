@@ -16,8 +16,8 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:form>
-	<acme:form-textarea code="administrator.requestAuditor.requestAuditor.form.label.responsibilityStatement" path="responsibilityStatement"/>
-	<acme:form-textbox code="administrator.requestAuditor.requestAuditor.form.label.firm" path="firm"/>
+	<acme:form-textarea code="administrator.requestAuditor.requestAuditor.form.label.responsibilityStatement" readonly="true" path="responsibilityStatement"/>
+	<acme:form-textbox code="administrator.requestAuditor.requestAuditor.form.label.firm" readonly="true" path="firm"/>
 	<acme:form-textbox code="administrator.requestAuditor.requestAuditor.form.label.user" readonly="true" path="user.username"/>
 	
 	<acme:form-submit code="administrator.requestAuditor.requestAuditor.form.button.accept" action="/administrator/request-auditor/delete?mode=accept"/>

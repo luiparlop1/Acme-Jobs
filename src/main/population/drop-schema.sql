@@ -35,10 +35,6 @@
        drop 
        foreign key `FKd0k52g7lcacefcp62kb4p9aor`;
 
-    alter table `consumer` 
-       drop 
-       foreign key FK_6cyha9f1wpj0dpbxrrjddrqed;
-
     alter table `customization_parameters_spam_words` 
        drop 
        foreign key `FKhcqquyqtys40tece78apjsbyt`;
@@ -87,10 +83,6 @@
        drop 
        foreign key `FKpcpr0xb5k7s4rxv5pulstt5v9`;
 
-    alter table `provider` 
-       drop 
-       foreign key FK_b1gwnjqm6ggy9yuiqm0o4rlmd;
-
     alter table `request_auditor` 
        drop 
        foreign key `FKg9gmiivm111rnb6yd8eq82kbk`;
@@ -129,8 +121,6 @@
 
     drop table if exists `commercial_banner`;
 
-    drop table if exists `consumer`;
-
     drop table if exists `customization_parameters`;
 
     drop table if exists `customization_parameters_spam_words`;
@@ -160,8 +150,6 @@
     drop table if exists `non_commercial_banner`;
 
     drop table if exists `offer`;
-
-    drop table if exists `provider`;
 
     drop table if exists `records`;
 
