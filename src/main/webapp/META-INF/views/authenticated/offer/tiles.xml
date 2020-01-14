@@ -26,8 +26,6 @@
 		<put-attribute name="body" type="template" value="../authenticated/offer/form.jsp" />
 	</definition>
 	
-	<definition name="consumer/offer/form" extends="master">
-		<put-attribute name="body" type="template" value="../authenticated/offer/form.jsp" />
-	</definition>
+	
 
 </tiles-definitions>

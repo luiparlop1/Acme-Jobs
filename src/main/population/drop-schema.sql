@@ -35,10 +35,6 @@
        drop 
        foreign key `FKd0k52g7lcacefcp62kb4p9aor`;
 
-    alter table `consumer` 
-       drop 
-       foreign key FK_6cyha9f1wpj0dpbxrrjddrqed;
-
     alter table `customization_parameters_spam_words` 
        drop 
        foreign key `FKhcqquyqtys40tece78apjsbyt`;
@@ -128,8 +124,6 @@
     drop table if exists `challenge`;
 
     drop table if exists `commercial_banner`;
-
-    drop table if exists `consumer`;
 
     drop table if exists `customization_parameters`;
 

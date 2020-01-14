@@ -17,6 +17,6 @@
 	<acme:form-checkbox code="authenticated.offer.form.label.accept" path="accept"/>
 	</jstl:if>
 	
-	<acme:form-submit test="${command == 'create'}" code="authenticated.offer.form.button.create" action="/consumer/offer/create"/>
+
 	<acme:form-return code="authenticated.offer.form.button.return"/>
 </acme:form>

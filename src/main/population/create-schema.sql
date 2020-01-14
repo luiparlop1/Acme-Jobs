@@ -91,15 +91,6 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `consumer` (
-       `id` integer not null,
-        `version` integer not null,
-        `user_account_id` integer,
-        `company` varchar(255),
-        `sector` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
-
     create table `customization_parameters` (
        `id` integer not null,
         `version` integer not null,
@@ -394,11 +385,6 @@ create index IDXal59yunywnkwi09ps7jxpr18c on `job` (`deadline`, `status`);
        add constraint `FKd0k52g7lcacefcp62kb4p9aor` 
        foreign key (`sponsor_id`) 
        references `sponsor` (`id`);
-
-    alter table `consumer` 
-       add constraint FK_6cyha9f1wpj0dpbxrrjddrqed 
-       foreign key (`user_account_id`) 
-       references `user_account` (`id`);
 
     alter table `customization_parameters_spam_words` 
        add constraint `FKhcqquyqtys40tece78apjsbyt` 
