@@ -187,7 +187,7 @@ CREATE TABLE `application` (
 
 LOCK TABLES `application` WRITE;
 /*!40000 ALTER TABLE `application` DISABLE KEYS */;
-INSERT INTO `application` VALUES (105,0,'2019-12-10 09:10:00.000000','Qualifications1','EMPA-JOBB:APPA','Skills1','Statements1','PENDING',79,28),(106,0,'2019-12-10 08:10:00.000000','Qualifications2','EMPA-JOBB:APPB','Skills2','Statements2','ACCEPTED',79,31),(107,0,'2019-12-05 09:10:00.000000','Qualifications3','EMPA-JOBC:APPA','Skills3','Statements3','REJECTED',80,28),(108,0,'2019-11-25 09:10:00.000000','Qualifications4','EMPA-JOBC:APPB','Skills4','Statements4','PENDING',80,31),(109,0,'2019-12-02 09:10:00.000000','Qualifications5','EMPA-JOBD:APPA','Skills5','Statements5','PENDING',81,28),(110,0,'2019-12-08 09:10:00.000000','Qualifications6','EMPB-JOBA:APPB','Skills6','Statements6','REJECTED',82,28),(111,0,'2019-12-10 09:10:00.000000','Qualifications7','EMPB-JOBB:APPD','Skills7','Statements7','ACCEPTED',83,28);
+INSERT INTO `application` VALUES (108,0,'2019-12-10 09:10:00.000000','Qualifications1','EMPA-JOBB:APPA','Skills1','Statements1','PENDING',82,28),(109,0,'2019-12-10 08:10:00.000000','Qualifications2','EMPA-JOBB:APPB','Skills2','Statements2','ACCEPTED',82,31),(110,0,'2019-12-05 09:10:00.000000','Qualifications3','EMPA-JOBC:APPA','Skills3','Statements3','REJECTED',83,28),(111,0,'2019-11-25 09:10:00.000000','Qualifications4','EMPA-JOBC:APPB','Skills4','Statements4','PENDING',83,31),(112,0,'2019-12-02 09:10:00.000000','Qualifications5','EMPA-JOBD:APPA','Skills5','Statements5','PENDING',84,28),(113,0,'2019-12-08 09:10:00.000000','Qualifications6','EMPB-JOBA:APPB','Skills6','Statements6','REJECTED',85,28),(114,0,'2019-12-10 09:10:00.000000','Qualifications7','EMPB-JOBB:APPD','Skills7','Statements7','ACCEPTED',86,28);
 /*!40000 ALTER TABLE `application` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -250,7 +250,7 @@ CREATE TABLE `auditor_record` (
 
 LOCK TABLES `auditor_record` WRITE;
 /*!40000 ALTER TABLE `auditor_record` DISABLE KEYS */;
-INSERT INTO `auditor_record` VALUES (100,0,'Cuerpo del auditor1','2019-09-11 08:10:00.000000',_binary '','Titulo01',22,79),(101,0,'Cuerpo del auditor2','2019-09-12 08:10:00.000000',_binary '','Titulo02',25,79),(102,0,'Cuerpo del auditor3','2019-09-13 08:10:00.000000',_binary '','Titulo03',22,80),(103,0,'Cuerpo del auditor4','2019-09-14 08:10:00.000000',_binary '','Titulo04',22,81),(104,0,'Cuerpo del auditor5','2019-09-15 08:10:00.000000',_binary '','Titulo05',25,82);
+INSERT INTO `auditor_record` VALUES (103,0,'Cuerpo del auditor1','2019-09-11 08:10:00.000000',_binary '','Titulo01',22,82),(104,0,'Cuerpo del auditor2','2019-09-12 08:10:00.000000',_binary '','Titulo02',25,82),(105,0,'Cuerpo del auditor3','2019-09-13 08:10:00.000000',_binary '','Titulo03',22,83),(106,0,'Cuerpo del auditor4','2019-09-14 08:10:00.000000',_binary '','Titulo04',22,84),(107,0,'Cuerpo del auditor5','2019-09-15 08:10:00.000000',_binary '','Titulo05',25,85);
 /*!40000 ALTER TABLE `auditor_record` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -363,7 +363,7 @@ CREATE TABLE `challenge` (
 
 LOCK TABLES `challenge` WRITE;
 /*!40000 ALTER TABLE `challenge` DISABLE KEYS */;
-INSERT INTO `challenge` VALUES (44,0,'2019-12-31 23:00:00.000000','Login once a day for as many days as possible to receive a prize!','Login for 5 days straight!','Login for 30 days straight!','Login for 15 days straight!','1 day premium','10 days premium','5 days premium','Sample challenge 01'),(45,0,'2019-12-04 23:00:00.000000','Post as many announcements as possible to receive a prize!','Post 5 announcements!','Post 20 announcements!','Post 10 announcements!','1 day premium','10 days premium','5 days premium','Sample challenge 02'),(46,0,'2020-12-28 23:00:00.000000','Be a member for as long as possible to receive a prize!','Be a member for over a month!','Be a member for over a year!','Be a member for over 6 months!','1 week premium','Free premium','3 months premium','Sample challenge 03');
+INSERT INTO `challenge` VALUES (44,0,'2019-12-31 23:00:00.000000','Login once a day for as many days as possible to receive a prize!','Login for 5 days straight!','Login for 30 days straight!','Login for 15 days straight!','1 day premium','10 days premium','5 days premium','Sample challenge 01'),(45,0,'2020-12-04 23:00:00.000000','Post as many announcements as possible to receive a prize!','Post 5 announcements!','Post 20 announcements!','Post 10 announcements!','1 day premium','10 days premium','5 days premium','Sample challenge 02'),(46,0,'2020-12-28 23:00:00.000000','Be a member for as long as possible to receive a prize!','Be a member for over a month!','Be a member for over a year!','Be a member for over 6 months!','1 week premium','Free premium','3 months premium','Sample challenge 03');
 /*!40000 ALTER TABLE `challenge` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -394,7 +394,7 @@ CREATE TABLE `commercial_banner` (
 
 LOCK TABLES `commercial_banner` WRITE;
 /*!40000 ALTER TABLE `commercial_banner` DISABLE KEYS */;
-INSERT INTO `commercial_banner` VALUES (52,0,'5188893404505068','https://www.ofrendavirgendelpilar.com/wp-content/uploads/2018/09/rosa-roja-ofrenda.jpg','Flowers','https://www.flores.com',10);
+INSERT INTO `commercial_banner` VALUES (52,0,'5188893404505068','https://i.imgur.com/8YcXhS0.png','Flowers','https://www.flores.com',10);
 /*!40000 ALTER TABLE `commercial_banner` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -547,7 +547,7 @@ CREATE TABLE `descriptor` (
 
 LOCK TABLES `descriptor` WRITE;
 /*!40000 ALTER TABLE `descriptor` DISABLE KEYS */;
-INSERT INTO `descriptor` VALUES (94,0,'Description01'),(95,0,'Description02'),(96,0,'Description03'),(97,0,'Description04'),(98,0,'Description05'),(99,0,'Description06');
+INSERT INTO `descriptor` VALUES (97,0,'Description01'),(98,0,'Description02'),(99,0,'Description03'),(100,0,'Description04'),(101,0,'Description05'),(102,0,'Description06');
 /*!40000 ALTER TABLE `descriptor` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -574,7 +574,7 @@ CREATE TABLE `descriptor_duty` (
 
 LOCK TABLES `descriptor_duty` WRITE;
 /*!40000 ALTER TABLE `descriptor_duty` DISABLE KEYS */;
-INSERT INTO `descriptor_duty` VALUES (94,85),(94,86),(95,87),(97,88),(97,89),(97,90),(98,91),(99,92),(99,93);
+INSERT INTO `descriptor_duty` VALUES (97,88),(97,89),(98,90),(100,91),(100,92),(100,93),(101,94),(102,95),(102,96);
 /*!40000 ALTER TABLE `descriptor_duty` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -601,7 +601,7 @@ CREATE TABLE `duty` (
 
 LOCK TABLES `duty` WRITE;
 /*!40000 ALTER TABLE `duty` DISABLE KEYS */;
-INSERT INTO `duty` VALUES (85,0,'Description01',50.3,'Titulo01'),(86,0,'Description02',43.3,'Titulo02'),(87,0,'Description03',20.6,'Titulo03'),(88,0,'Description04',15.8,'Titulo04'),(89,0,'Description05',36.5,'Titulo05'),(90,0,'Description06',5.5,'Titulo06'),(91,0,'Description07',2.5,'Titulo07'),(92,0,'Description08',20.5,'Titulo08'),(93,0,'Description09',50.5,'Titulo09');
+INSERT INTO `duty` VALUES (88,0,'Description01',50.3,'Titulo01'),(89,0,'Description02',43.3,'Titulo02'),(90,0,'Description03',20.6,'Titulo03'),(91,0,'Description04',15.8,'Titulo04'),(92,0,'Description05',36.5,'Titulo05'),(93,0,'Description06',5.5,'Titulo06'),(94,0,'Description07',2.5,'Titulo07'),(95,0,'Description08',20.5,'Titulo08'),(96,0,'Description09',50.5,'Titulo09');
 /*!40000 ALTER TABLE `duty` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -679,7 +679,7 @@ CREATE TABLE `hibernate_sequence` (
 
 LOCK TABLES `hibernate_sequence` WRITE;
 /*!40000 ALTER TABLE `hibernate_sequence` DISABLE KEYS */;
-INSERT INTO `hibernate_sequence` VALUES (114);
+INSERT INTO `hibernate_sequence` VALUES (117);
 /*!40000 ALTER TABLE `hibernate_sequence` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -707,7 +707,7 @@ CREATE TABLE `investor_record` (
 
 LOCK TABLES `investor_record` WRITE;
 /*!40000 ALTER TABLE `investor_record` DISABLE KEYS */;
-INSERT INTO `investor_record` VALUES (54,0,10,'Titulo01','Sector01',2),(55,0,20.5,'Titulo02','Sector02',1),(56,0,50.2,'Titulo03','Sector03',1),(57,0,5,'Titulo04','Sector04',4),(58,0,35.3,'Titulo05','Sector04',5);
+INSERT INTO `investor_record` VALUES (57,0,10,'Titulo01','Sector01',2),(58,0,20.5,'Titulo02','Sector02',1),(59,0,50.2,'Titulo03','Sector03',1),(60,0,5,'Titulo04','Sector04',4),(61,0,35.3,'Titulo05','Sector04',5);
 /*!40000 ALTER TABLE `investor_record` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -748,7 +748,7 @@ CREATE TABLE `job` (
 
 LOCK TABLES `job` WRITE;
 /*!40000 ALTER TABLE `job` DISABLE KEYS */;
-INSERT INTO `job` VALUES (79,1,'2020-12-27 09:10:00.000000','http://acme.com','EMPA-JOBB',501.2,'EUR',_binary '','Titulo01',94,16),(80,1,'2020-12-28 09:10:00.000000','http://acme.com','EMPA-JOBC',500,'EUR',_binary '','Titulo02',95,16),(81,1,'2020-12-29 09:10:00.000000','http://acme.com','EMPA-JOBD',400,'EUR',_binary '','Titulo03',96,16),(82,1,'2020-12-10 09:10:00.000000','http://acme.com','EMPB-JOBA',501.2,'EUR',_binary '','Titulo04',97,19),(83,1,'2020-12-11 09:10:00.000000','http://acme.com','EMPB-JOBB',5000,'EUR',_binary '','Titulo05',98,19),(84,1,'2020-12-12 09:10:00.000000','http://acme.com','EMPA-JOBX',5000,'EUR',_binary '\0','Titulo06',99,16);
+INSERT INTO `job` VALUES (82,1,'2020-12-27 09:10:00.000000','http://acme.com','EMPA-JOBB',501.2,'EUR',_binary '','Titulo01',97,16),(83,1,'2020-12-28 09:10:00.000000','http://acme.com','EMPA-JOBC',500,'EUR',_binary '','Titulo02',98,16),(84,1,'2020-12-29 09:10:00.000000','http://acme.com','EMPA-JOBD',400,'EUR',_binary '','Titulo03',99,16),(85,1,'2020-12-10 09:10:00.000000','http://acme.com','EMPB-JOBA',501.2,'EUR',_binary '','Titulo04',100,19),(86,1,'2020-12-11 09:10:00.000000','http://acme.com','EMPB-JOBB',5000,'EUR',_binary '','Titulo05',101,19),(87,1,'2020-12-12 09:10:00.000000','http://acme.com','EMPA-JOBX',5000,'EUR',_binary '\0','Titulo06',102,16);
 /*!40000 ALTER TABLE `job` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -776,7 +776,7 @@ CREATE TABLE `justification` (
 
 LOCK TABLES `justification` WRITE;
 /*!40000 ALTER TABLE `justification` DISABLE KEYS */;
-INSERT INTO `justification` VALUES (112,0,'No me gusta esta peticion',107),(113,0,'No me gusta esta peticion 2',110);
+INSERT INTO `justification` VALUES (115,0,'No me gusta esta peticion',110),(116,0,'No me gusta esta peticion 2',113);
 /*!40000 ALTER TABLE `justification` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -808,6 +808,39 @@ LOCK TABLES `luis_bulletin` WRITE;
 UNLOCK TABLES;
 
 --
+-- Table structure for table `mark`
+--
+
+DROP TABLE IF EXISTS `mark`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `mark` (
+  `id` int(11) NOT NULL,
+  `version` int(11) NOT NULL,
+  `answer` varchar(255) DEFAULT NULL,
+  `mark` varchar(255) DEFAULT NULL,
+  `password` varchar(255) DEFAULT NULL,
+  `application_id` int(11) NOT NULL,
+  `pacile_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `UK_bhkykjd46b9diw59dwqlwqi93` (`application_id`),
+  UNIQUE KEY `UK_6titib41hm078bogvnb7i4qkm` (`pacile_id`),
+  CONSTRAINT `FKh9ri0kjios1b5h52c9ump993s` FOREIGN KEY (`application_id`) REFERENCES `application` (`id`),
+  CONSTRAINT `FKsm6nbb3ehhkot33d5folpuk0s` FOREIGN KEY (`pacile_id`) REFERENCES `pacile` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `mark`
+--
+
+LOCK TABLES `mark` WRITE;
+/*!40000 ALTER TABLE `mark` DISABLE KEYS */;
+INSERT INTO `mark` VALUES (116,0,'No me gusta esta peticion 1','http://algo.com','AAA1111111111__',105,114),(117,0,'No me gusta esta peticion 2',NULL,NULL,107,115);
+/*!40000 ALTER TABLE `mark` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `message`
 --
 
@@ -833,7 +866,7 @@ CREATE TABLE `message` (
 
 LOCK TABLES `message` WRITE;
 /*!40000 ALTER TABLE `message` DISABLE KEYS */;
-INSERT INTO `message` VALUES (62,0,'Este es el cuerpo del mensaje','2019-09-06 07:30:00.000000','Un mensaje de algo',8),(63,0,'Este es el cuerpo del mensaje 2','2019-09-06 07:32:00.000000','Otro mensaje mas',8),(64,0,'Este es el cuerpo del mensaje 3','2019-09-06 07:40:00.000000','Aun mas mensajes',8),(65,0,'Buenos dias','2019-09-06 08:30:00.000000','Que tal',8),(66,0,'Holaa','2019-09-06 09:30:00.000000','Saludo',8),(67,0,'Este mensaje es solo para saludaros','2019-09-07 09:30:00.000000','Hola a todos',17);
+INSERT INTO `message` VALUES (65,0,'Este es el cuerpo del mensaje','2019-09-06 07:30:00.000000','Un mensaje de algo',8),(66,0,'Este es el cuerpo del mensaje 2','2019-09-06 07:32:00.000000','Otro mensaje mas',8),(67,0,'Este es el cuerpo del mensaje 3','2019-09-06 07:40:00.000000','Aun mas mensajes',8),(68,0,'Buenos dias','2019-09-06 08:30:00.000000','Que tal',8),(69,0,'Holaa','2019-09-06 09:30:00.000000','Saludo',8),(70,0,'Este mensaje es solo para saludaros','2019-09-07 09:30:00.000000','Hola a todos',17);
 /*!40000 ALTER TABLE `message` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -858,7 +891,7 @@ CREATE TABLE `message_tags` (
 
 LOCK TABLES `message_tags` WRITE;
 /*!40000 ALTER TABLE `message_tags` DISABLE KEYS */;
-INSERT INTO `message_tags` VALUES (62,'Menssage'),(62,'Population'),(62,'Algo mas que poner'),(63,'Menssage'),(63,'Population'),(63,':)'),(64,'Menssage'),(64,'Population'),(64,'Tres'),(65,'Menssage'),(65,'Population'),(65,'Adios'),(66,'Menssage'),(66,'Hola'),(66,'Por poner algo'),(67,'Menssage'),(67,'Hola'),(67,'Saludo');
+INSERT INTO `message_tags` VALUES (65,'Menssage'),(65,'Population'),(65,'Algo mas que poner'),(66,'Menssage'),(66,'Population'),(66,':)'),(67,'Menssage'),(67,'Population'),(67,'Tres'),(68,'Menssage'),(68,'Population'),(68,'Adios'),(69,'Menssage'),(69,'Hola'),(69,'Por poner algo'),(70,'Menssage'),(70,'Hola'),(70,'Saludo');
 /*!40000 ALTER TABLE `message_tags` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -884,7 +917,7 @@ CREATE TABLE `message_thread` (
 
 LOCK TABLES `message_thread` WRITE;
 /*!40000 ALTER TABLE `message_thread` DISABLE KEYS */;
-INSERT INTO `message_thread` VALUES (68,0,'2019-09-03 07:30:00.000000','Hilo de mensajes'),(69,0,'2019-09-05 07:30:00.000000','Comentarios'),(70,0,'2019-09-03 07:30:00.000000','Vacio');
+INSERT INTO `message_thread` VALUES (71,0,'2019-09-03 07:30:00.000000','Hilo de mensajes'),(72,0,'2019-09-05 07:30:00.000000','Comentarios'),(73,0,'2019-09-03 07:30:00.000000','Vacio');
 /*!40000 ALTER TABLE `message_thread` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -911,7 +944,7 @@ CREATE TABLE `message_thread_message` (
 
 LOCK TABLES `message_thread_message` WRITE;
 /*!40000 ALTER TABLE `message_thread_message` DISABLE KEYS */;
-INSERT INTO `message_thread_message` VALUES (68,62),(68,63),(68,64),(69,65),(69,66),(70,67);
+INSERT INTO `message_thread_message` VALUES (71,65),(71,66),(71,67),(72,68),(72,69),(73,70);
 /*!40000 ALTER TABLE `message_thread_message` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -942,7 +975,7 @@ CREATE TABLE `non_commercial_banner` (
 
 LOCK TABLES `non_commercial_banner` WRITE;
 /*!40000 ALTER TABLE `non_commercial_banner` DISABLE KEYS */;
-INSERT INTO `non_commercial_banner` VALUES (53,0,'patata','http://www.estadiodeportivo.com/elementosWeb/gestionCajas/EDE/Image/escudo-Real-Betis-2012.jpg','Manquepierda','https://www.betis.com',13);
+INSERT INTO `non_commercial_banner` VALUES (53,0,'patata','https://i.imgur.com/NGLSjk6.png','Manquepierda','https://www.betis.com',13),(54,0,'patata','https://i.imgur.com/2eVF1HG.png','Manquepierda','https://www.betis.com',13),(55,0,'patata','https://i.imgur.com/fihihcF.png','Manquepierda','https://www.betis.com',13),(56,0,'patata','https://i.imgur.com/MtBRoNP.png','Manquepierda','https://www.betis.com',13);
 /*!40000 ALTER TABLE `non_commercial_banner` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -976,6 +1009,35 @@ LOCK TABLES `offer` WRITE;
 /*!40000 ALTER TABLE `offer` DISABLE KEYS */;
 INSERT INTO `offer` VALUES (38,0,'2020-12-27 09:10:00.000000','2019-10-27 09:10:00.000000',5001.2,'EUR','Description01','OADCD-55555','Titulo01'),(39,0,'2020-10-27 09:10:00.000000','2019-09-21 08:10:00.000000',500,'EUR','Description02','OCCCc-55345','Titulo02'),(40,0,'2020-12-30 09:10:00.000000','2019-10-26 08:10:00.000000',5001.2,'EUR','Description03','OACDC-14355','Titulo03'),(41,0,'2020-11-27 09:10:00.000000','2019-10-25 08:10:00.000000',20.2,'EUR','Description04','OADCX-44445','Titulo04'),(42,0,'2020-12-28 09:10:00.000000','2019-10-28 09:10:00.000000',501.2,'EUR','Description05','OADCW-75055','Titulo05');
 /*!40000 ALTER TABLE `offer` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `pacile`
+--
+
+DROP TABLE IF EXISTS `pacile`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `pacile` (
+  `id` int(11) NOT NULL,
+  `version` int(11) NOT NULL,
+  `mark` varchar(255) DEFAULT NULL,
+  `text` varchar(255) DEFAULT NULL,
+  `job_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `UK_70b356e5a27528wtps3tv01os` (`job_id`),
+  CONSTRAINT `FK7b7r4mbp9e1ox6gbdbo53p6gs` FOREIGN KEY (`job_id`) REFERENCES `job` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `pacile`
+--
+
+LOCK TABLES `pacile` WRITE;
+/*!40000 ALTER TABLE `pacile` DISABLE KEYS */;
+INSERT INTO `pacile` VALUES (114,0,'http://algo.com','Texto de ejemploo',79),(115,0,NULL,'Texto de ejemploo2',80),(119,0,'http://algo.com','hola',118);
+/*!40000 ALTER TABLE `pacile` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -1067,7 +1129,7 @@ CREATE TABLE `request` (
 
 LOCK TABLES `request` WRITE;
 /*!40000 ALTER TABLE `request` DISABLE KEYS */;
-INSERT INTO `request` VALUES (59,0,'2019-12-27 09:10:00.000000','Esta es una descripción de prueba','2019-10-27 09:10:00.000000',501.2,'EUR','RABCD-91234','Titulo01'),(60,0,'2020-03-15 12:15:00.000000','¡Un coche por favor!','2019-11-03 09:10:00.000000',9999.99,'EUR','RABGH-98534','Quiero un coche de lujo'),(61,0,'2020-09-03 07:30:00.000000','O una caravana','2019-09-03 07:30:00.000000',999.99,'EUR','RUIGH-98744','Para ser feliz quiero un camión');
+INSERT INTO `request` VALUES (62,0,'2020-12-27 09:10:00.000000','Esta es una descripción de prueba','2019-10-27 09:10:00.000000',501.2,'EUR','RABCD-91234','Titulo01'),(63,0,'2020-03-15 12:15:00.000000','¡Un coche por favor!','2019-11-03 09:10:00.000000',9999.99,'EUR','RABGH-98534','Quiero un coche de lujo'),(64,0,'2020-09-03 07:30:00.000000','O una caravana','2019-09-03 07:30:00.000000',999.99,'EUR','RUIGH-98744','Para ser feliz quiero un camión');
 /*!40000 ALTER TABLE `request` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1167,6 +1229,9 @@ CREATE TABLE `user_account` (
   `enabled` bit(1) NOT NULL,
   `identity_email` varchar(255) DEFAULT NULL,
   `identity_name` varchar(255) DEFAULT NULL,
+  `identity_phone_area_code` varchar(255) DEFAULT NULL,
+  `identity_phone_country_code` int(11) DEFAULT NULL,
+  `identity_phone_number` varchar(255) DEFAULT NULL,
   `identity_surname` varchar(255) DEFAULT NULL,
   `password` varchar(255) DEFAULT NULL,
   `username` varchar(255) DEFAULT NULL,
@@ -1181,7 +1246,7 @@ CREATE TABLE `user_account` (
 
 LOCK TABLES `user_account` WRITE;
 /*!40000 ALTER TABLE `user_account` DISABLE KEYS */;
-INSERT INTO `user_account` VALUES (1,0,_binary '\0','john.doe@acme.com','John','Doe','$2a$05$0xDCN/JENWuy3fDO0C9iZuvL9pu/SKzKvFCcFr3g0xvYqR.ShjLMC','anonymous'),(3,0,_binary '','administrator1@acme.com','Administrator','Acme1.com','$2a$05$Dq8l3c/I.xv2oWmJcX6LSeh7wyLpGIG1YFF9zzaNPneEXQM6sqxWG','administrator01'),(6,0,_binary '','administrator@acme.com','Administrator','Acme.com','$2a$05$QTFBKB06wyYSsh.Hq1CqOOL7mM6HzXH3OcU0L0ek0m5Ef2zudUfXa','administrator'),(9,0,_binary '','sponsor1@acme.com','Sponsor','One','$2a$05$Q8Iy2oPHOmlzHNp6GaBFAuP1s/buGJUyapAm4mTOYHhRJcizXdhEq','sponsor1'),(12,0,_binary '','sponsor2@acme.com','Sponsor','One','$2a$05$o5KBwajtyB0aWUfah52cQOp06axI3/HDaX.OoH07J4MQyaEHL40JO','sponsor2'),(15,0,_binary '','employer1@acme.com','Employer','One','$2a$05$Vv.w/wtNjOSfj6TeMb8yNOrEmHKb/129qjTrju1yEq.KbpHTxSHBe','employer1'),(18,0,_binary '','employer2@acme.com','Employer2','Two','$2a$05$h3gfvBTnNRl.b/nMs2LuRubUYt3R/ZAWXeSFFJntdme04bm5wJpp2','employer2'),(21,0,_binary '','auditor1@acme.com','auditor','One','$2a$05$4zEwM0MU/X2RxK1GxfNUgup2LD3IY1BgLCUqbh1CA9hSgdbs79hb.','auditor1'),(24,0,_binary '','auditor2@acme.com','auditor2','One','$2a$05$sOINq12gD/jRtdRa4dNbEuo3swOMeVdgd3LxCsI40QG5Elj0vUhGG','auditor2'),(27,0,_binary '','worker1@acme.com','worker','One','$2a$05$7ELlcJkRQJ9GH2mOHej0Xeb4LRBT7Rpn620DX9QrmN222yr48ekUC','worker1'),(30,0,_binary '','worker2@acme.com','worker2','One','$2a$05$Z8w3qPr41XIFO9gfgIjrZO3NKUVQLt6Re7j4boaS2x1/QH3KIX5Eq','worker2');
+INSERT INTO `user_account` VALUES (1,0,_binary '\0','john.doe@acme.com','John',NULL,NULL,NULL,'Doe','$2a$05$sU6LN/LwhKdCNk68BiwPYOxNOfFH9lK3sWeNqdAC2YtQaoX8Gg6qa','anonymous'),(3,0,_binary '','administrator1@acme.com','Administrator',NULL,NULL,NULL,'Acme1.com','$2a$05$Pvej2GJYN4tFLrIXXwWuz.oPMSEKiWpZ5d/Hxewh1C6QQfhik/qkm','administrator01'),(6,0,_binary '','administrator@acme.com','Administrator',NULL,34,'123 456 789','Acme.com','$2a$05$Gjq4tJSH19mj1bOFB4W19.DxNeH1UILGnqYG1yaYVWFQiaUmo4w0G','administrator'),(9,0,_binary '','sponsor1@acme.com','Sponsor',NULL,NULL,NULL,'One','$2a$05$/64InU.B5Wq6pUgfluk9WOt4d8upXwrbuFY9q2FpBa2QrGd9Hak4y','sponsor1'),(12,0,_binary '','sponsor2@acme.com','Sponsor',NULL,NULL,NULL,'One','$2a$05$aIiwg.pwYYVEiILHfidG9OaCHs7Jx5TK9OTXk9p.00Y0j2494l/OS','sponsor2'),(15,0,_binary '','employer1@acme.com','Employer',NULL,NULL,NULL,'One','$2a$05$j.pcQEbxq3N11hI26w6TvOgixPsEAnOWqoDF8KX7VMWzEPf71Csum','employer1'),(18,0,_binary '','employer2@acme.com','Employer2',NULL,NULL,NULL,'Two','$2a$05$DRi7CBssUwCAi/55ZEJuye38jsuw.SrIsCbVt.lLUnUEquwigjCtW','employer2'),(21,0,_binary '','auditor1@acme.com','auditor',NULL,NULL,NULL,'One','$2a$05$WiKkm2ZPYFLONkIs6NJvVOhjb3W/asj.kVk3AP36afcg1daxD.xsW','auditor1'),(24,0,_binary '','auditor2@acme.com','auditor2',NULL,NULL,NULL,'One','$2a$05$f5MgDFvIrA.KKXbi3kd0h.n4PzzYapbGe/gjMmd1oKQPxhSVdhF32','auditor2'),(27,0,_binary '','worker1@acme.com','worker',NULL,NULL,NULL,'One','$2a$05$uPGyP1iNvzMWxeNGd1AgWuwqdx3FV1SlqaHcvzJuFXgT7q23rWaE6','worker1'),(30,0,_binary '','worker2@acme.com','worker2',NULL,NULL,NULL,'One','$2a$05$4lT47fYeFYEjQVlYuOpFIOvFQsMvDqNbbQ/Dpm9Yl2.Cz2Bm.yjhu','worker2');
 /*!40000 ALTER TABLE `user_account` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1211,7 +1276,7 @@ CREATE TABLE `user_involved` (
 
 LOCK TABLES `user_involved` WRITE;
 /*!40000 ALTER TABLE `user_involved` DISABLE KEYS */;
-INSERT INTO `user_involved` VALUES (71,0,68,8),(72,0,69,8),(73,0,70,8),(74,0,70,26),(75,0,70,23),(76,0,70,17),(77,0,70,20),(78,0,70,29);
+INSERT INTO `user_involved` VALUES (74,0,71,8),(75,0,72,8),(76,0,73,8),(77,0,73,26),(78,0,73,23),(79,0,73,17),(80,0,73,20),(81,0,73,29);
 /*!40000 ALTER TABLE `user_involved` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1243,6 +1308,67 @@ LOCK TABLES `worker` WRITE;
 INSERT INTO `worker` VALUES (28,0,27,'quealifications 1','skills 1, Inc'),(31,0,30,'quealifications 2','skills 2');
 /*!40000 ALTER TABLE `worker` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Table structure for table `xxx1`
+--
+
+DROP TABLE IF EXISTS `xxx1`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `xxx1` (
+  `id` int(11) NOT NULL,
+  `version` int(11) NOT NULL,
+  `more_info` varchar(255) DEFAULT NULL,
+  `text` varchar(1024) DEFAULT NULL,
+  `job_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `UK_76hv5113nyo8dj1vrfbujinm` (`job_id`),
+  CONSTRAINT `FKk01c0gpbm6jpjfgu9vcni8y3j` FOREIGN KEY (`job_id`) REFERENCES `job` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `xxx1`
+--
+
+LOCK TABLES `xxx1` WRITE;
+/*!40000 ALTER TABLE `xxx1` DISABLE KEYS */;
+INSERT INTO `xxx1` VALUES (114,0,'http://algo.com','Texto de ejemploo',79),(115,0,NULL,'Texto de ejemploo2',80),(119,0,NULL,'pppppppppppppppppppppppppppppppppppp',118),(121,0,'http://k','ccccccccccccccccccccccccccccc',120),(123,0,'http://algo.com','rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr',122);
+/*!40000 ALTER TABLE `xxx1` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `xxx2`
+--
+
+DROP TABLE IF EXISTS `xxx2`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `xxx2` (
+  `id` int(11) NOT NULL,
+  `version` int(11) NOT NULL,
+  `answer` varchar(255) DEFAULT NULL,
+  `password` varchar(255) DEFAULT NULL,
+  `application_id` int(11) NOT NULL,
+  `xxx1_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `UK_fw64o7ksyqkpko4t3kc35bldx` (`application_id`),
+  UNIQUE KEY `UK_om9tesqykqdo8o9wj5oo06ill` (`xxx1_id`),
+  CONSTRAINT `FKaqef0w3fpqew2f1d18hx71ol9` FOREIGN KEY (`application_id`) REFERENCES `application` (`id`),
+  CONSTRAINT `FKpwued4rhyyr4fyq4jgckagrig` FOREIGN KEY (`xxx1_id`) REFERENCES `xxx1` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `xxx2`
+--
+
+LOCK TABLES `xxx2` WRITE;
+/*!40000 ALTER TABLE `xxx2` DISABLE KEYS */;
+INSERT INTO `xxx2` VALUES (116,0,'No me gusta esta peticion 1','AAA111__',105,114),(117,0,'No me gusta esta peticion 2',NULL,107,115),(132,0,'sssssssss',NULL,131,121),(134,0,'rrrrrrrrrrrr','xxxx11111_',133,123);
+/*!40000 ALTER TABLE `xxx2` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -1253,4 +1379,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-12-18 11:54:10
+-- Dump completed on 2020-01-14 16:58:40
