@@ -7,7 +7,7 @@
 	<acme:form-textbox code="worker.job.form.label.title" path="title"/>
 	<acme:form-moment code="worker.job.form.label.deadline" path="deadline"/>
 	<acme:form-money code="worker.job.form.label.salary" path="salary"/>
-	<acme:form-textarea code="worker.job.form.label.reference" path="reference"/>
+	<acme:form-textarea code="worker.job.form.label.reference" placeholder="XXXX" path="reference"/>
 	<acme:form-textbox code="worker.job.form.label.moreInfo" path="moreInfo"/>
 	<acme:form-checkbox code="worker.job.form.label.status" path="status"/>
 	<div class="form-group" >

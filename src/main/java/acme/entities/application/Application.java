@@ -37,7 +37,7 @@ public class Application extends DomainEntity {
 
 	@Column(unique = true)
 	@NotBlank
-	@Pattern(regexp = "^\\D{4}-\\D{4}:\\D{4}$")
+	//@Pattern(regexp = "^\\D{4}-\\D{4}:\\D{4}$")
 	private String				reference;
 
 	@NotBlank

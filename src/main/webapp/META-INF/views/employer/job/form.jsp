@@ -8,7 +8,7 @@
 	<acme:form-textbox code="employer.job.form.label.title" readonly="true" path="title"/>
 	<acme:form-moment code="employer.job.form.label.deadline" readonly="true" path="deadline"/>
 	<acme:form-money code="employer.job.form.label.salary" readonly="true" path="salary"/>
-	<acme:form-textbox code="employer.job.form.label.reference" readonly="true" path="reference"/>
+	<acme:form-textbox code="employer.job.form.label.reference" placeholder="AAAA-BBBB" readonly="true" path="reference"/>
 	<acme:form-textbox code="employer.job.form.label.moreInfo" readonly="true" path="moreInfo"/>
 	<jstl:if test="${command != 'create'}">
 	<acme:form-checkbox code="employer.job.form.label.status" readonly="true" path="status"/>
@@ -32,7 +32,7 @@
 	<acme:form-textbox code="employer.job.form.label.title" path="title"/>
 	<acme:form-moment code="employer.job.form.label.deadline" path="deadline"/>
 	<acme:form-money code="employer.job.form.label.salary" path="salary"/>
-	<acme:form-textbox code="employer.job.form.label.reference" path="reference"/>
+	<acme:form-textbox code="employer.job.form.label.reference" placeholder="AAAA-BBBB" path="reference"/>
 	<acme:form-textbox code="employer.job.form.label.moreInfo" path="moreInfo"/>
 	<jstl:if test="${command != 'create'}">
 	<acme:form-checkbox code="employer.job.form.label.status" path="status"/>
