@@ -469,7 +469,35 @@
 		<bean id="Banner01" class="acme.entities.commercialBanner.CommercialBanner">
 		<property name="picture" value="https://www.ofrendavirgendelpilar.com/wp-content/uploads/2018/09/rosa-roja-ofrenda.jpg"/>
 		<property name="slogan" value="Flowers"/>
-		<property name="url" value="https://www.flores.com"/>
+		<property name="url" value="https://i.imgur.com/8YcXhS0.png"/>
+		<property name="card" value="5188893404505068"/>
+		<property name="sponsor" ref="sponsor1Sponsor"/>
+		</bean>
+		<bean id="Banner03" class="acme.entities.commercialBanner.CommercialBanner">
+		<property name="picture" value="https://www.ofrendavirgendelpilar.com/wp-content/uploads/2018/09/rosa-roja-ofrenda.jpg"/>
+		<property name="slogan" value="Flowers"/>
+		<property name="url" value="https://i.imgur.com/NGLSjk6.png"/>
+		<property name="card" value="5188893404505068"/>
+		<property name="sponsor" ref="sponsor1Sponsor"/>
+		</bean>
+		<bean id="Banner04" class="acme.entities.commercialBanner.CommercialBanner">
+		<property name="picture" value="https://www.ofrendavirgendelpilar.com/wp-content/uploads/2018/09/rosa-roja-ofrenda.jpg"/>
+		<property name="slogan" value="Flowers"/>
+		<property name="url" value="https://i.imgur.com/2eVF1HG.png"/>
+		<property name="card" value="5188893404505068"/>
+		<property name="sponsor" ref="sponsor1Sponsor"/>
+		</bean>
+		<bean id="Banner05" class="acme.entities.commercialBanner.CommercialBanner">
+		<property name="picture" value="https://www.ofrendavirgendelpilar.com/wp-content/uploads/2018/09/rosa-roja-ofrenda.jpg"/>
+		<property name="slogan" value="Flowers"/>
+		<property name="url" value="https://i.imgur.com/fihihcF.png"/>
+		<property name="card" value="5188893404505068"/>
+		<property name="sponsor" ref="sponsor1Sponsor"/>
+		</bean>
+		<bean id="Banner06" class="acme.entities.commercialBanner.CommercialBanner">
+		<property name="picture" value="https://www.ofrendavirgendelpilar.com/wp-content/uploads/2018/09/rosa-roja-ofrenda.jpg"/>
+		<property name="slogan" value="Flowers"/>
+		<property name="url" value="https://i.imgur.com/MtBRoNP.png"/>
 		<property name="card" value="5188893404505068"/>
 		<property name="sponsor" ref="sponsor1Sponsor"/>
 		</bean>
@@ -477,7 +505,7 @@
 		<bean id="Banner02" class="acme.entities.nonCommercialBanner.NonCommercialBanner">
 		<property name="picture" value="http://www.estadiodeportivo.com/elementosWeb/gestionCajas/EDE/Image/escudo-Real-Betis-2012.jpg"/>
 		<property name="slogan" value="Manquepierda"/>
-		<property name="url" value="https://www.betis.com"/>
+		<property name="url" value="https://i.imgur.com/8YcXhS0.png"/>
 		<property name="jingle" value="patata"/>
 		<property name="sponsor" ref="sponsor2Sponsor"/>
 		</bean>

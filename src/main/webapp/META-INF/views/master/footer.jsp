@@ -31,9 +31,17 @@
 		<acme:footer-option icon="fa fa-language" code="master.footer.label.english" action="/?language=en"/>
 		<acme:footer-option icon="fa fa-language" code="master.footer.label.spanish" action="/?language=es"/>
 	</acme:footer-subpanel>
-	
+
 	<acme:footer-logo logo="images/logo.png">
 		<acme:footer-copyright code="master.company.name"/>
 	</acme:footer-logo>		
 	
 </acme:footer-panel>
+
+<%@ page import='acme.entities.commercialBanner.CommercialBanner' %>
+<%
+	CommercialBanner commercialBanner = (CommercialBanner) request.getAttribute("url");
+	String imageUrl = commercialBanner.getUrl();
+%>
+
+<p style="text-align:center;"><img src="<%= imageUrl %>"></p>
