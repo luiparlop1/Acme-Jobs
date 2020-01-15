@@ -89,11 +89,7 @@ master.menu.administrator.investorRecord= Lista de registros de inversion
 master.menu.administrator.investorRecord.create= Crear nuevo registro de inversionista
 master.menu.administrator.requestAuditor = Ver las peticiones para auditor
 
-# master.menu.provider ########################################################
 
-master.menu.provider = Proveedor
-master.menu.provider.favourite-link = Enlace favorito
-master.menu.provider.request.create = Crear request
 
 # master.menu.consumer ##########################################################
 
@@ -106,8 +102,6 @@ master.menu.consumer.offer.create = Crear oferta
 master.menu.user-account.messageThreads.create = Crear hilo de mensajes
 master.menu.user-account = Cuenta
 master.menu.user-account.general-data = Datos generales
-master.menu.user-account.provider = Datos de proveedor
-master.menu.user-account.become-provider = Hazte proveedor
 master.menu.user-account.consumer = Datos de consumidor
 master.menu.user-account.become-consumer = Hazte consumidor
 master.menu.user-account.announcements = Anuncios
@@ -128,7 +122,6 @@ master.menu.user-account.announcement = Lista anuncios
 master.menu.user-account.offer = Lista de ofertas
 master.menu.user-account.records = Registros de la compañia
 master.menu.user-account.investorRecord = Lista de registros de inversion
-master.menu.user-account.request = Lista de peticiones
 master.menu.user-account.job.list = Listar los trabajos
 		
 # master.footer ###############################################################

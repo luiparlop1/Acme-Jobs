@@ -349,10 +349,6 @@
 	<acme:form-double code="administrator.dashboard.form.label.numAnnouncement" readonly="true" path="numberAnnouncement"/>
 	<acme:form-double code="administrator.dashboard.form.label.numInvestorRecord" readonly="true" path="numberInvestorRecord"/>
 	<acme:form-double code="administrator.dashboard.form.label.numCompanyRecord" readonly="true" path="numberCompanyRecord"/>
-	<acme:form-double code="administrator.dashboard.form.label.minRewardRequest" readonly="true" path="minRewardRequest"/>
-	<acme:form-double code="administrator.dashboard.form.label.maxRewardRequest" readonly="true" path="maxRewardRequest"/>
-	<acme:form-double code="administrator.dashboard.form.label.avgRewardRequest" readonly="true" path="avgRewardRequest"/>
-	<acme:form-double code="administrator.dashboard.form.label.desvRewardRequest" readonly="true" path="desvRewardRequest"/>
 	<acme:form-double code="administrator.dashboard.form.label.minRewardOffer" readonly="true" path="minRewardOffer"/>
 	<acme:form-double code="administrator.dashboard.form.label.maxRewardOffer" readonly="true" path="maxRewardOffer"/>
 	<acme:form-double code="administrator.dashboard.form.label.avgRewardOffer" readonly="true" path="avgRewardOffer"/>

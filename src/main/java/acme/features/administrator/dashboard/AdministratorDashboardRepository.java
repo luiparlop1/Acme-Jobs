@@ -20,15 +20,6 @@ public interface AdministratorDashboardRepository extends AbstractRepository {
 	@Query("select count(i) from InvestorRecord i")
 	Double findNumberInvestorRecord();
 
-	@Query("select min(r.reward.amount) from Request r")
-	Double findMinRewardRequest();
-
-	@Query("select max(r.reward.amount) from Request r")
-	Double findMaxRewardRequest();
-
-	@Query("select avg(r.reward.amount) from Request r")
-	Double findAvgRewardRequest();
-
 	@Query("select min(r.reward.amount) from Offer r")
 	Double findMinRewardOffer();
 
@@ -40,9 +31,6 @@ public interface AdministratorDashboardRepository extends AbstractRepository {
 
 	@Query("select sqrt(sum(r.reward.amount*r.reward.amount)/count(r)-(avg(r.reward.amount)*avg(r.reward.amount))) from Offer r")
 	Double findDesvRewardOffer();
-
-	@Query("select sqrt(sum(r.reward.amount*r.reward.amount)/count(r)-(avg(r.reward.amount)*avg(r.reward.amount))) from Request r")
-	Double findDesvRewardRequest();
 
 	@Query("select i.sector,count(i) from InvestorRecord i group by i.sector")
 	Object[][] findInvestorGroupBySector();

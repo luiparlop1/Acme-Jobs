@@ -87,10 +87,6 @@
        drop 
        foreign key `FKpcpr0xb5k7s4rxv5pulstt5v9`;
 
-    alter table `provider` 
-       drop 
-       foreign key FK_b1gwnjqm6ggy9yuiqm0o4rlmd;
-
     alter table `request_auditor` 
        drop 
        foreign key `FKg9gmiivm111rnb6yd8eq82kbk`;
@@ -161,11 +157,7 @@
 
     drop table if exists `offer`;
 
-    drop table if exists `provider`;
-
     drop table if exists `records`;
-
-    drop table if exists `request`;
 
     drop table if exists `request_auditor`;
 

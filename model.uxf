@@ -265,25 +265,6 @@ Announcement
     <id>UMLClass</id>
     <coordinates>
       <x>1652</x>
-      <y>518</y>
-      <w>308</w>
-      <h>112</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;Entity&gt;&gt;
-Request
---
-+ title String {NotBlank}
-+ moment Date {Temporal(TIMESTAMP), Past}
-+ deadline Date{Temporal(TIMESAMP), Future}
-+ description String {NotBlank}
-+ reward Money {NonNull}
-+ ticker String {NotBlank, Unique, Pattern("([R-R]{1}[A-z]{4})-[1-9]{5}")}</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>1652</x>
       <y>658</y>
       <w>336</w>
       <h>112</h>

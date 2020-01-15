@@ -31,7 +31,6 @@ master.panic.title = Unexpected error
 master.panic.text = \
 	We are very sorry! If this unexpected error prevents you from working with our \
 	system, please, do contact us and we will try to solve it as soon as possible. 
-master.panic.label.request = Request:
 master.panic.label.status = Status:
 master.panic.label.exceptions = Exceptions:
 master.panic.text.consult-log = Please, consult the log to see them full stack trace.

@@ -53,10 +53,6 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		result.setNumberAnnouncement(this.repository.findNumberAnnouncement());
 		result.setNumberCompanyRecord(this.repository.findNumberCompanyRecord());
 		result.setNumberInvestorRecord(this.repository.findNumberInvestorRecord());
-		result.setMinRewardRequest(this.repository.findMinRewardRequest());
-		result.setMaxRewardRequest(this.repository.findMaxRewardRequest());
-		result.setAvgRewardRequest(this.repository.findAvgRewardRequest());
-		result.setDesvRewardRequest(this.repository.findDesvRewardRequest());
 		result.setMinRewardOffer(this.repository.findMinRewardOffer());
 		result.setMaxRewardOffer(this.repository.findMaxRewardOffer());
 		result.setAvgRewardOffer(this.repository.findAvgRewardOffer());

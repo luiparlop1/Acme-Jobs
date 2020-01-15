@@ -979,34 +979,7 @@ INSERT INTO `offer` VALUES (38,0,'2020-12-27 09:10:00.000000','2019-10-27 09:10:
 UNLOCK TABLES;
 
 --
--- Table structure for table `provider`
---
 
-DROP TABLE IF EXISTS `provider`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `provider` (
-  `id` int(11) NOT NULL,
-  `version` int(11) NOT NULL,
-  `user_account_id` int(11) DEFAULT NULL,
-  `company` varchar(255) DEFAULT NULL,
-  `sector` varchar(255) DEFAULT NULL,
-  PRIMARY KEY (`id`),
-  KEY `FK_b1gwnjqm6ggy9yuiqm0o4rlmd` (`user_account_id`),
-  CONSTRAINT `FK_b1gwnjqm6ggy9yuiqm0o4rlmd` FOREIGN KEY (`user_account_id`) REFERENCES `user_account` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `provider`
---
-
-LOCK TABLES `provider` WRITE;
-/*!40000 ALTER TABLE `provider` DISABLE KEYS */;
-/*!40000 ALTER TABLE `provider` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `records`
 --
 
@@ -1040,36 +1013,7 @@ INSERT INTO `records` VALUES (47,0,'Sergio','Description01',_binary '','sergio@
 UNLOCK TABLES;
 
 --
--- Table structure for table `request`
---
-
-DROP TABLE IF EXISTS `request`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `request` (
-  `id` int(11) NOT NULL,
-  `version` int(11) NOT NULL,
-  `deadline` datetime(6) DEFAULT NULL,
-  `description` varchar(255) DEFAULT NULL,
-  `moment` datetime(6) DEFAULT NULL,
-  `reward_amount` double DEFAULT NULL,
-  `reward_currency` varchar(255) DEFAULT NULL,
-  `ticker` varchar(255) DEFAULT NULL,
-  `title` varchar(255) DEFAULT NULL,
-  PRIMARY KEY (`id`),
-  UNIQUE KEY `UK_9mxq3powq8tqctclj0fbi2nih` (`ticker`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `request`
---
-
-LOCK TABLES `request` WRITE;
-/*!40000 ALTER TABLE `request` DISABLE KEYS */;
-INSERT INTO `request` VALUES (59,0,'2019-12-27 09:10:00.000000','Esta es una descripción de prueba','2019-10-27 09:10:00.000000',501.2,'EUR','RABCD-91234','Titulo01'),(60,0,'2020-03-15 12:15:00.000000','¡Un coche por favor!','2019-11-03 09:10:00.000000',9999.99,'EUR','RABGH-98534','Quiero un coche de lujo'),(61,0,'2020-09-03 07:30:00.000000','O una caravana','2019-09-03 07:30:00.000000',999.99,'EUR','RUIGH-98744','Para ser feliz quiero un camión');
-/*!40000 ALTER TABLE `request` ENABLE KEYS */;
-UNLOCK TABLES;
 
 --
 -- Table structure for table `request_auditor`
